@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	<category>
+	    <pattern>careerquestions</pattern>
+	    <template>
+	        Do you enjoy writing code or do you like the idea of having programs you created be used by others to solve problems?
+	        <button>
+	            <text>
+	                Yes      
+	            </text>
+	            <postback>
+	                softwareengineer
+	            </postback>
+	        </button>
+	        <button>
+	            <text>
+	                No
+	            </text>
+	            <postback>
+	                dbaquestion
+	            </postback>
+	        </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>dbaquestion</pattern>
+	    <template>
+	        Do you enjoy working with databases or data? 
+	        Does the idea of working with database internals or performance appeal to you?
+	        <button>
+	            <text>
+	                Yes      
+	            </text>
+	            <postback>
+	                databaseadministrator
+	            </postback>
+	        </button>
+	        <button>
+	            <text>
+	                No
+	            </text>
+	            <postback>
+	                devopsquestion
+	            </postback>
+	        </button>
+	    </template>
+	    
+	</category>
+	
+	<category>
+	    <pattern>devopsquestion</pattern>
+	    <template>
+	        Do you enjoy solving organizational process problems using technology? 
+	        Does helping create the foundations of an organization's software delivery model sound appealing to you?
+	        <button>
+	            <text>
+	                Yes      
+	            </text>
+	            <postback>
+	                devopsengineer
+	            </postback>
+	        </button>
+	        <button>
+	            <text>
+	                No
+	            </text>
+	            <postback>
+	                uxdeveloperquestion
+	            </postback>
+	        </button>
+	        
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>uxdeveloperquestion</pattern>
+	    <template>
+	        Do you find that you are more artistically inclined or are drawn more to a career that includes more visual artistry?
+	        <button>
+	            <text>
+	                Yes      
+	            </text>
+	            <postback>
+	                uxdeveloper
+	            </postback>
+	        </button>
+	        <button>
+	            <text>
+	                No
+	            </text>
+	            <postback>
+	                machinelearningengineerquestion
+	            </postback>
+	        </button>
+	        
+	    </template>	    
+	</category>
+	
+	<category>
+	    <pattern>machinelearningengineerquestion</pattern>
+	    <template>
+	        Do you enjoy mathematics or AI concepts? 
+	        Does creating a living, learning model for data analysis and AI sound interesting?
+	        <button>
+	            <text>
+	                Yes      
+	            </text>
+	            <postback>
+	                machinelearningengineer
+	            </postback>
+	        </button>
+	        <button>
+	            <text>
+	                No
+	            </text>
+	            <postback>
+	                notsure
+	            </postback>
+	        </button>
+	        
+	        
+	    </template>	    
+	</category>
+	
+</aiml>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>databaseadministrator</pattern>
+	    <template>
+	        <link>
+                <text>Learn more about being a database administrator here</text>
+                <url>https://www.careerexplorer.com/careers/database-administrator/</url>
+            </link>
+	    </template>
+	</category>
+</aiml>

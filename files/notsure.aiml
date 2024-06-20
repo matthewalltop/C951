@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>notsure</pattern>
+	    <template>I'm not sure that I have a job recommendation for you at this time. You may consider doing more extensive research on your own or reaching out to an advisor for help.</template>
+	</category>
+</aiml>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>devopsengineer</pattern>
+	    <template>
+	        <link>
+                <text>Learn more about being a DevOps Developer here</text>
+                <url>https://www.careerexplorer.com/careers/devops-developer/</url>
+            </link>
+	    </template>
+	</category>
+</aiml>

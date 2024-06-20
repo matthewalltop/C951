@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+      <pattern>Start</pattern>
+        <template>
+        Hello! I am WGUBot. I would like to help you explore some career options in the IT field!
+        Let's begin. I will ask a series of questions and make a career recommendation for you to research further.
+            <button>
+                <text>Learn about 5 IT careers</text>
+                <postback>learn</postback>
+            </button>
+            <button>
+                <text>Help me determine an IT career</text>
+                <postback>careerquestions</postback>
+            </button>
+        </template>
+    </category>
+    
+    
+       <category>
+        <pattern>learn</pattern>
+        <template>Explore these 5 exciting career opportunities you can pursue with a degree in Computer Science!
+            <button>
+                <text>Software Engineer</text>
+                <postback>softwareengineer</postback>
+            </button>
+            <button>
+                <text>Database Administrator</text>
+                <postback>databaseadministrator</postback>
+            </button>
+            <button>
+                <text>UX Designer</text>
+                <postback>uxdeveloper</postback>
+            </button>
+            <button>
+                <text>Machine Learning Engineer</text>
+                <postback>machinelearningengineer</postback>
+            </button>
+            <button>
+                <text>DevOps Engineer</text>
+                <postback>devopsengineerr</postback>
+            </button>
+            <button>
+                <text>Follow the questionaire instead?</text>
+                <postback>careerquestions</postback>
+            </button>
+        </template>
+    </category>
+</aiml>
