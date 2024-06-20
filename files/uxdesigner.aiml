@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 	<category>
-	    <pattern>uxdeveloper</pattern>
+	    <pattern>uxdesigner</pattern>
 	    <template>
 	        <link>
                 <text>Learn more about being a UX Designer here</text>

@@ -3,7 +3,7 @@
   <category>
       <pattern>Start</pattern>
         <template>
-        Hello! I am WGUBot. I would like to help you explore some career options in the IT field!
+        Hello! I am WGUBot! I would like to help you explore some career options in the IT field!
         Let's begin. I will ask a series of questions and make a career recommendation for you to research further.
             <button>
                 <text>Learn about 5 IT careers</text>
@@ -30,7 +30,7 @@
             </button>
             <button>
                 <text>UX Designer</text>
-                <postback>uxdeveloper</postback>
+                <postback>uxdesigner</postback>
             </button>
             <button>
                 <text>Machine Learning Engineer</text>

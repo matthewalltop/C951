@@ -2,6 +2,17 @@
 <aiml version="2.0">
 	<category>
 	    <pattern>notsure</pattern>
-	    <template>I'm not sure that I have a job recommendation for you at this time. You may consider doing more extensive research on your own or reaching out to an advisor for help.</template>
+	    <template>
+	    I'm not sure that I have a job recommendation for you at this time. 
+	    You may consider doing more extensive research on your own or reaching out to an advisor for help. In the meantime, would you like to see some careers worth considering?
+	    <button>
+	        <text>Yes</text>
+	        <postback>learn</postback>
+        </button>
+        <button>
+	        <text>No</text>
+	        <postback>start</postback>
+        </button>
+	    </template>
 	</category>
 </aiml>
