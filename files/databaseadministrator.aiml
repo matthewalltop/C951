@@ -3,6 +3,7 @@
 	<category>
 	    <pattern>databaseadministrator</pattern>
 	    <template>
+	        Database administrators are responsible for the design, implementation, maintenance, and security of an organization's databases.
 	        <link>
                 <text>Learn more about being a database administrator here</text>
                 <url>https://www.careerexplorer.com/careers/database-administrator/</url>
