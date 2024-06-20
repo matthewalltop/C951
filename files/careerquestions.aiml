@@ -67,7 +67,7 @@
 	                No
 	            </text>
 	            <postback>
-	                uxdeveloperquestion
+	                uxdesignerquestion
 	            </postback>
 	        </button>
 	        
@@ -75,7 +75,7 @@
 	</category>
 	
 	<category>
-	    <pattern>uxdeveloperquestion</pattern>
+	    <pattern>uxdesignerquestion</pattern>
 	    <template>
 	        Do you find that you are more artistically inclined or are drawn more to a career that includes more visual artistry?
 	        <button>
