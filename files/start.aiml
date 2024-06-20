@@ -38,7 +38,7 @@
             </button>
             <button>
                 <text>DevOps Engineer</text>
-                <postback>devopsengineerr</postback>
+                <postback>devopsengineer</postback>
             </button>
             <button>
                 <text>Follow the questionaire instead?</text>

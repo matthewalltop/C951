@@ -4,7 +4,7 @@
 	<category>
 	    <pattern>careerquestions</pattern>
 	    <template>
-	        Do you enjoy writing code or do you like the idea of having programs you created be used by others to solve problems?
+	        Do you enjoy writing code or do you like the idea of having programs you create be used by others to solve problems?
 	        <button>
 	            <text>
 	                Yes      
